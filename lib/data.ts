@@ -291,6 +291,7 @@ export type Project = {
   shortName: string;
   tagline: string;
   cover: string;
+  video?: string; 
   status: "Shipped" | "Building";
   year: string;
   problem: string;
